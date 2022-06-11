@@ -5,7 +5,6 @@ server {
         root /var/www/wordpress;
 
         index index.php;
-        server_name 18.142.183.70;
 
         location / {
                 try_files $uri $uri/ =404;
